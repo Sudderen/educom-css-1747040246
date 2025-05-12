@@ -121,3 +121,37 @@ a:hover {
 a:active {
   color: blue;
 }
+
+
+.button-container a {
+    width: 200px;
+    padding: 10px;
+    color: var(--white);
+    background-color: var(--darker-red);
+    
+    /* ROUNDING THE CORNERS */
+    border-radius: 10px;
+    
+    /* CREATED WITH THE SHADOW GENERATOR */
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+
+    /* Let's get rid of the underline */
+    text-decoration: none;
+    
+    /* Transition effect */
+    transition: all 0.5s ease;
+}
+
+.button-container a:hover {
+    background-color: #AF1F16;
+    /* Let's get rid of the underline */
+    text-decoration: none;
+}
+
+.new-button-container a:hover {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(60, 154, 146, 1) 20%, rgba(72, 174, 140, 1) 33%, rgba(85, 196, 134, 1) 48%, rgba(87, 199, 133, 1) 50%, rgba(145, 207, 114, 1) 69%, rgba(237, 221, 83, 1) 100%);
+    text-decoration: none;
+}
