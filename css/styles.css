@@ -6,6 +6,27 @@
  *
  */
 
+:root {
+    --regualr: "Arial";
+
+    --dark-brown: #402214;
+    --lighter-brown:  #774231;
+    --lightest-brown: #aa4b1b;
+
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --white: #FFF;
+    --black: #000;
+
+    --big-pad: 20px;
+    --small-pad: 2px;
+
+    --big-margin: 20px;
+    --small-margin: 2px;
+}
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -15,8 +36,8 @@ html, body {
      width: 80px;
      height: 80px;
      color: #FFF;
-     padding: 20px;
-     margin: 10px;
+     padding: var(--big-pad);
+     margin: var(--big-margin);
      font-size: 14px;
      background-color: rgba(255,0,0,0.4);
      display: inline-block;
@@ -26,8 +47,8 @@ html, body {
      width: 80px;
      height: 80px;
      color: #FF0;
-     padding: 20px;
-     margin: 10px;
+     padding: var(--big-pad);
+     margin: var(--big-margin);
      font-size: 14px;
      background-color: rgb(255, 238, 0);
      display: inline-block;
