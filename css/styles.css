@@ -49,3 +49,17 @@ html, body {
     width: 100px;
     height: 100px;
 }
+
+a {
+    font-size: 22px;
+    color: #F0F;
+}
+
+.parent a {
+    font-size: 32px;
+    color: #CCC;
+}
+
+.parent h2 {
+    color:#FD0;
+}
