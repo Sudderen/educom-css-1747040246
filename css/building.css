@@ -1,34 +1,57 @@
 .navigation{
-    color: white;
-    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    color: black;
     height: 20%;
     padding: 40px;
-    width: 100%;
 }
 
 .body{
     display: flex;
-    background-color: yellow;
     padding: 40px;
+
 }
 
 .block{
+    border-radius: 25px;
     display: inline-block;
-    background-color: red;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 70px;
+    text-align: center;
     width: 32%;
-    height: 150px;
     margin: 5px;
-    border: 10px solid transparent;
 }
 
 .block:hover{
-    border: 5px solid transparent;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 .footer{
+    justify-content: space-between;
+    font-size: x-large;
+    opacity: 30%;
+    display: flex;
     color: white;
-    background-color: black;
+    background-color: rgb(201, 201, 201);
     padding: 40px;
     height: 30%;
+}
+
+.rome{
+    background: url(https://i.pinimg.com/736x/13/62/ac/1362acd8a0b2b0bed8106c2b91f96d6a.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.bruxelles {
+    background: url(https://www.mrsmithworldphotography.com/photos/Atomium-Brussels-1.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.new-york{
+    background: url(https://as1.ftcdn.net/v2/jpg/02/18/47/30/1000_F_218473007_QFceUeXUCiWbtnokoMxNa3gpXi40lUJ2.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
 }
